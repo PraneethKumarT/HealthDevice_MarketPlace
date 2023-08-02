@@ -1,0 +1,29 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-healthdevices-dev-55250-authRole",
+      "UnauthRoleArn": "arn:aws:iam::732919009396:role/amplify-healthdevices-dev-55250-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::732919009396:role/amplify-healthdevices-dev-55250-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-healthdevices-dev-55250-deployment",
+      "UnauthRoleName": "amplify-healthdevices-dev-55250-unauthRole",
+      "StackName": "amplify-healthdevices-dev-55250",
+      "StackId": "arn:aws:cloudformation:us-east-1:732919009396:stack/amplify-healthdevices-dev-55250/8f9ebeb0-3001-11ee-884b-0a08714019c9",
+      "AmplifyAppId": "d199d3lc08mpp7"
+    },
+    "categories": {
+      "auth": {
+        "healthdevices352fc720": {}
+      },
+      "api": {
+        "healthdevices": {}
+      },
+      "function": {
+        "CreatePaymentIntent": {
+          "deploymentBucketName": "amplify-healthdevices-dev-55250-deployment",
+          "s3Key": "amplify-builds/CreatePaymentIntent-782b6b3164744f536f53-build.zip"
+        }
+      }
+    }
+  }
+}
