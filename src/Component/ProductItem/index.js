@@ -104,7 +104,7 @@ const ProductItem = ({item}) => {
 
         {/* Modal View End */}
 
-            <Image style={styles.image} source={{uri : 'https://m.media-amazon.com/images/I/41X2rqy8WEL._AC_UF1000,1000_QL80_.jpg'}}/>
+          <Image style={styles.image} source={{uri : item.image}}/>
             <View style={styles.rightContainer}>
                <Text style={styles.title} numberOfLines={3}>{item.title}</Text>
                 {/*Rating*/}
